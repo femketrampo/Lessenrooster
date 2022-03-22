@@ -1,0 +1,29 @@
+﻿body
+{
+    text-align:center;
+}
+table
+{
+    position:center;
+    column-count:6;
+    text-align:center;
+}
+th
+{
+    background-color:lightgrey;
+    border: 2px solid;
+    padding: 10px;
+}
+.Lesuren 
+{
+    background-color: lightgrey;
+}
+td
+{
+    border:2px solid;
+    padding:10px;
+}
+td:hover:not(.Lesuren)
+{
+    background-color:aqua;
+}
